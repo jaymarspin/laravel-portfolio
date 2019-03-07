@@ -1,0 +1,29 @@
+/*boiler plate*/
+
+#head, #nav , #popper-back, .fixedHead, .myrow, .mycontainer, .showmore{
+    width: calc(100% - 300px);
+    float: right;
+    clear: both;
+}
+
+
+#popper-back{
+    left: 300px;
+}
+    #foot{
+        width: calc(100% - 300px);
+        left: 300px;
+    }
+    .fixedHead{
+        position: fixed;
+        left: 300px;
+        
+       
+
+    }
+
+    .mycontainer{
+        position: relative;
+        margin: auto;
+        right: 200px;
+    }

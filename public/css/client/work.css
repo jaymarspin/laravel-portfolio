@@ -1,0 +1,261 @@
+.container{
+    padding: 10px;
+    
+    margin-bottom: 100px;
+    display: block;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    margin-top: 40px;
+    
+    margin-bottom: 400px;
+  }
+  #images-wrapper{
+    
+      width: 450px;
+      height: auto;
+      overflow: hidden;
+      float: left;
+      clear: left;
+  }
+  #target-wrapper{
+      width: 100%;
+      height: 430px;
+      position: relative;
+
+  }
+  #target-wrapper img{
+      position: relative;
+      width: 100%;
+      height: 100%;
+      
+      top: 50%;
+      transform: translate(0%,-50%); 
+  }
+  .container h1{
+      float: left;
+      position: relative;
+      display: block;
+      width: calc(100% - 460px);
+      text-align: left;
+      padding-left: 30px;
+      font-family: 'Libre Baskerville', serif;
+  }
+  .tech{
+      float: left;
+      position: relative;
+      display: block;
+      width: calc(100% - 460px);
+      text-align: left;
+      padding-left: 30px;
+      margin-top: 30px;
+  }
+  .container p{
+      float: left;
+      position: relative;
+      display: block;
+      width: calc(100% - 460px);
+      text-align: left;
+      padding-left: 30px;
+      font-size: 19px;
+      color: #333;
+      margin-top: 30px;
+      word-wrap: break-word;
+  }
+  
+  .actions{
+      float: left;
+      position: relative;
+      display: block;
+      width: calc(100% - 460px);
+      text-align: right;
+      padding-left: 30px;
+      margin-top: 30px;
+  }
+  .actions a{
+      color: #333;
+  }
+  .actions #dater{
+      font-size: 16px;
+      color: #888;
+  }
+
+  .action-button{
+      cursor: pointer;
+      height: auto;
+      float: right;
+      position: relative;
+      text-align: center;
+      width: 160px;
+      height: 120px;
+      vertical-align: center;
+     
+
+
+  }
+  .action-button strong{
+      clear: both;
+      width: 100%;
+      float: left;
+      display: block;
+      margin-top: 10px;
+  }
+  .action-button i{
+        font-size: 90px;
+    }
+  #thumb-holder{
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      position: relative;
+      padding-left: 2%;
+      padding-top: 10px;
+
+  }
+  #thumb-holder img{
+      width: 60px;
+      height: 60px;
+      position: relative;
+      float: left;
+      margin-right: 1%;
+      margin-bottom: 10px;
+  }
+  #thumb-img{
+      position: relative;
+      height: auto;
+      overflow: hidden;
+  }
+
+  @media (max-width: 675px){
+  
+    #images-wrapper{
+       width: 100%;
+        
+        height: 300px;
+    }
+
+    #target-wrapper img{
+      position: relative;
+      width: 100%;
+      height: 100%;
+     
+   
+      
+  }
+
+  #target-wrapper{
+      width: 100%;
+      height: 220px;
+      position: relative;
+  }
+
+    .container p, .tech, .container h1, .actions{
+        width: 100%;
+    }
+    .container p{
+        font-size: 16px;
+    }
+    .actions{
+        text-align: center
+    }
+    .action-button{
+        cursor: pointer;
+        height: auto;
+        float: left;
+        position: relative;
+        text-align: center;
+        width: 60px;
+        height: 140px;
+        vertical-align: center;
+    }
+    .action-button i{
+        font-size: 40px;
+    }
+    
+  }
+  @media (min-width: 676px) and (max-width: 960px){
+        #images-wrapper{
+            width: 300px;
+            height: auto;
+            overflow: hidden;
+            
+        }
+
+        #target-wrapper{
+        width: 100%;
+        height: 320px;
+        
+
+        }
+        #thumb-holder{
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      position: relative;
+      padding-left: 2%;
+      padding-top: 10px;
+
+  }
+  #thumb-holder img{
+      width: 60px;
+      height: 60px;
+      position: relative;
+      float: left;
+      margin-right: 1%;
+      margin-bottom: 10px;
+  }
+
+        
+        .actions{
+      float: left;
+      clear: both;
+      width: 100%;
+      
+  }
+  
+  .actions #dater{
+      font-size: 16px;
+      color: #888;
+  }
+
+  .action-button{
+      cursor: pointer;
+      height: auto;
+      float: left;
+      position: relative;
+      text-align: center;
+      width: 160px;
+      height: 120px;
+      vertical-align: center;
+     
+
+
+  } 
+  .container h1{
+      
+    width: calc(100% - 300px);
+     
+  }
+  .tech{
+      
+      width: calc(100% - 300px);
+      
+  }
+  .container p{
+      
+    width: calc(100% - 300px);
+      
+  }
+    }
+
+    @media(width: 1024px){
+        .actions{
+      float: left;
+      clear: both;
+      width: 100%;
+      
+  }
+    }
+
+  
+  

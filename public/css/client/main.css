@@ -1,0 +1,1020 @@
+<style>
+    .mycontainer{
+        text-align: center;
+        position: relative;
+        margin-top: 80px;
+        width: 100%;
+        border: 1px solid #000;
+        padding: 100px;
+        height: auto;
+        overflow: hidden;
+        display: none;
+
+    }
+    h1, #course-self{
+        font-size:35px;
+        width: 100%;
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+        position: relative;
+        color: #333;
+    }
+    #course-self{
+        font-size: 16px;
+    }
+    .my2row{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      
+        
+    }
+    .my2row a:hover{
+        text-decoration: none;
+        color: #333;
+    }
+    .my2row img{
+        width: 100%;
+        position: relative;
+        height: 200px;
+    }
+    .col{
+        background-color: #f5f5f5;
+        padding: 10px;
+        padding-bottom: 23px;
+        padding-top: 23px;
+        border-radius: 10px;
+        height: auto;
+        overflow: hidden;
+        
+    }
+    .col p{
+        text-indent: 20px;
+        text-align: left;
+        width: 95%;
+        display: block;
+        margin: auto;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .col h2{
+        font-size: 25px;
+    }
+    .alert{
+        width: 90%;
+        position: relative;
+        display: block;
+        margin: auto;
+    }
+    span a{
+        color: green;
+    }
+    span a:hover{
+        color: green;
+        text-decoration: underline;
+    }
+    .dater{
+        float: left;
+        clear: both;
+        width: 100%;
+        position: relative;
+        display: block;
+        height: auto;
+        overflow: hidden;
+
+    }
+    
+ 
+    .trans-back{
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        position: absolute;
+        opacity: 0.5;
+    }
+    .col-border{
+        width: 100%;
+        clear: both;
+        position: relative;
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .col-border img{
+        width: 80%;
+        height: 30px;
+        margin: auto;
+    }
+
+    .showmore{
+        width: 20%;
+        color: #828282;
+        padding: 15px;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        border-radius: 15px;
+        cursor: pointer;
+        text-align: center;
+    }
+    .showmore:hover{
+        text-decoration: underline;
+    }
+    .article-design{
+        position: relative;
+        clear: both;
+        width: 100%;
+        margin-top: -25px;
+        color: #333333;
+    }
+    .article-design i{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    .col-md-12 h2{
+        padding-left: 10px;
+    }
+    .dater{
+        height: auto;
+        padding: 10px;
+        padding-bottom: 0;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        border-top: 1px solid #dedede;
+        margin-top: 15px;
+        text-align: center;
+        color: #888;
+    }
+    .col-xl-3{
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+  
+   
+
+   .hexagon
+{   overflow: hidden;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+    cursor: pointer;
+    float: left;
+    
+    filter: drop-shadow(4px 4px 4px  #000);
+    position: relative;
+    
+}
+
+
+.hexagon-in1
+{   overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+
+
+.col-6, .myrow{
+    clear: both;width: 100%;
+   
+}
+.myrow{
+    margin-top: 30px;
+}
+
+
+
+
+#self{
+    width: 500px;
+    height: 500px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .mycontainer{
+    width: 90%;
+  }
+
+#self{
+    width: 320px;
+    height: 320px;
+}
+.my2row img{
+    width: 90%;
+}
+  
+}
+.myrow{
+    background-image: url('{{asset("images/JAYBACK.png")}}');
+    background-position: center;
+    
+    background-size: cover;
+
+    
+    }
+      .categories{
+          border: 1px solid #000;
+          float: left;
+          margin-right: 10px;
+          margin-bottom: 10px;
+      }
+      .col-5{
+          border: 1px solid #000;
+      }
+      .categories-holder{
+          height: auto;
+          overflow: hidden;
+      }
+ 
+
+p {
+margin: 0 0 10px 0;
+}
+
+
+
+.clip-caption {
+width: 100%;
+position: absolute;
+top: 50%;
+-ms-transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+transform: translateY(-50%);
+text-align: center;
+}
+
+.clip-each {
+display: block;
+position: relative;
+float: right;
+-webkit-clip-path: polygon(100% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+
+-webkit-transition: all 0.2s ease-in;
+transition: all 0.2s ease-in;
+margin: 0 auto;
+overflow: hidden;
+filter: drop-shadow(4px 4px 4px  #000);
+
+}
+
+a.clip-each:hover {
+background: #9E566E;
+-webkit-transition: all 0.25s ease-in;
+transition: all 0.25s ease-in;
+}
+
+
+
+
+
+.clip-gradient {
+background: #222;
+width: 200px;
+height: 200px;
+}
+
+.clip-gradient .clip-caption {
+color: #fff;
+}
+
+.clip-border {
+background: -webkit-linear-gradient(300deg, #aebcbf 0%, #6e7774 50%, #333 61%, #333 100%);  
+background: linear-gradient(150deg, #aebcbf 0%,#6e7774 50%,#333 61%,#333 100%);
+width: 160px;
+height: 160px;
+margin-top: 7px;
+color: #222;
+
+}
+
+.clip-border::after {
+content: "";
+position: absolute;
+top: 4%;
+left: 4%;
+right: 4%;
+bottom: 4%;
+margin: 0 auto;
+-webkit-transition: all 0.3s linear;
+transition: all 0.3s linear;
+-webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+-webkit-clip-path: url("#hexagon-clip");
+clip-path: url("#hexagon-clip");
+z-index: -1;
+}
+
+.clip-tagline {
+display: block;
+color: #758C9B;
+text-decoration: none;
+text-align: center;
+}
+
+
+#self-holder{
+  width: 40%;
+  position: relative;
+  float: left;
+ 
+  margin-left: 3%;
+  display: block;
+  
+}
+.wrap {
+
+  clear: both;
+color: #222;
+float: left;
+position: relative;
+font-size: 24px;
+}
+#talent-holder{
+  width: 40%;
+  height: auto;
+  overflow: hidden;
+  float: right;
+  clear: right;
+}
+.row{
+  justify-content: center
+}
+.clip-caption i{
+font-size: 50px;
+width: 100%;
+align-self: center;
+}
+        .myrow{
+              width: 100%;
+          
+              height: auto;
+              overflow: hidden;
+              margin: auto;
+          }
+          #self-holder h1{
+            
+            font-weight: bold;
+          
+          }
+
+     
+      @media (max-width: 320px){
+          
+          #self{
+            width: 100%;
+            height: 300px;
+            position: relative;
+           
+  
+          }
+          .clip-each {
+            float: left;
+            margin-left: 1%;
+          }
+          #self-holder{
+            width: 100%;
+            overflow: hidden;
+
+          }
+          .clip-solid{
+            width: 130px;
+            height: 130px;
+          }
+          .clip-gradient {
+            background: #222;
+            width: 140px;
+            height: 140px;
+          }
+          #talent-holder{
+            width: 100%;
+            padding-left: 2%;
+
+
+          }
+          .clip-caption{
+            font-size: 12px;
+          }
+          .clip-caption i{
+            font-size: 60px;
+            width: 100%;
+            align-self: center;
+          }
+          #self-holder h1{
+            font-size: 30px;
+           
+          }
+
+      }
+      @media (min-width: 321px) and (max-width: 375px){
+        #self{
+            width: 100%;
+            height: 300px;
+            position: relative;
+           
+  
+          }
+          .clip-each {
+            float: left;
+            margin-left: 1%;
+          }
+          #self-holder{
+            width: 100%;
+            overflow: hidden;
+
+          }
+          .clip-solid{
+            width: 150px;
+            height: 150px;
+          }
+          .clip-gradient {
+            background: #222;
+            width: 155px;
+            height: 155px;
+          }
+          #talent-holder{
+            width: 100%;
+            padding-left: 2%;
+
+
+          }
+          .clip-caption{
+            font-size: 12px;
+          }
+          .clip-caption i{
+            font-size: 60px;
+            width: 100%;
+            align-self: center;
+          }
+          #self-holder h1{
+            font-size: 30px;
+          
+          }
+      }
+
+      @media (width: 375px){
+        #self{
+            width: 100%;
+            height: 300px;
+            position: relative;
+           
+  
+          }
+          .clip-each {
+            float: left;
+            margin-left: 1%;
+          }
+          #self-holder{
+            width: 100%;
+            overflow: hidden;
+
+          }
+          .clip-solid{
+            width: 150px;
+            height: 150px;
+          }
+          .clip-gradient {
+            background: #222;
+            width: 168px;
+            height: 168px;
+          }
+          #talent-holder{
+            width: 100%;
+            padding-left: 2%;
+
+
+          }
+          .clip-caption{
+            font-size: 12px;
+          }
+          .clip-caption i{
+            font-size: 60px;
+            width: 100%;
+            align-self: center;
+          }
+          #self-holder h1{
+            font-size: 30px;
+          }
+      }
+
+      @media (min-width: 376px) and (max-width: 414px) {
+        #self{
+            width: 100%;
+            height: 300px;
+            position: relative;
+           
+  
+          }
+          .clip-each {
+            float: left;
+            margin-left: 1%;
+          }
+          #self-holder{
+            width: 100%;
+            overflow: hidden;
+
+          }
+          .clip-solid{
+            width: 150px;
+            height: 150px;
+          }
+          .clip-gradient {
+            background: #222;
+            width: 185px;
+            height: 185px;
+          }
+          #talent-holder{
+            width: 100%;
+            padding-left: 2%;
+
+
+          }
+          .clip-caption{
+            font-size: 12px;
+          }
+          .clip-caption i{
+            font-size: 70px;
+            width: 100%;
+            align-self: center;
+          }
+          #self-holder h1{
+            font-size: 30px;
+          }
+
+      }
+
+      @media (min-width: 640px) and (max-width: 799px){
+        #self-holder{
+            width: 45%;
+            overflow: hidden;
+
+        }
+        #self{
+            width: 100%;
+            height: 300px;
+            position: relative;
+           
+  
+          }
+        #talent-holder{
+            width: 50%;
+        }
+        .clip-gradient {
+            background: #222;
+            width: 140px;
+            height: 140px;
+          }
+          
+      }
+
+      @media(min-width: 800px) and (max-width: 1024px){
+        .clip-gradient {
+
+          width: 155px;
+          height: 155px;
+          }
+          .clip-caption{
+            font-size: 16px;
+          }
+          .clip-caption i{
+            font-size: 70px;
+            width: 100%;
+            align-self: center;
+          }
+      }
+      @media(min-width: 1280px){
+        #self-holder{
+          width: 31%;
+        }
+        #self{
+          width: 100%; 
+  
+          }
+        .clip-each {
+            float: left;
+            margin-left: 1%;
+          }
+          .clip-gradient {
+
+          width: 230px;
+          height: 230px;
+          }
+          .clip-caption{
+            font-size: 22px;
+          }
+          .clip-caption i{
+            font-size: 100px;
+            width: 100%;
+            align-self: center;
+          }
+
+          #talent-holder{
+            padding-top: 68px;
+          }
+      }
+      @media(min-width: 1280px) and (max-width:1680px){
+        #talent-holder{
+            padding-top: 10px;
+          }
+          #self-holder{
+          width: 33%;
+          margin-right: 5%;
+        }
+      }
+      #web{
+        background-color: #0a2d66 
+          }
+
+          #web:hover , #appdesign:hover , #software:hover, #mobile:hover, #programming:hover, #databases:hover{
+            background-color: #000;
+            opacity: 0.3;
+          }
+          #popup{
+            width: 1000px;
+            height: 400px;
+            position: fixed;
+            display: none;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            z-index: 102;
+            background-color: #fff;
+            
+          }
+          #trans{
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            opacity: 0.5;
+            background-color: #000;
+            z-index: 101;
+            top: 0px;
+            left: 0px;
+            display: none;
+          }
+          #pop-impress, #pop-content{
+            width: 200px;
+            height: 100%;
+            position: relative;
+            float: left;
+            clear: left;
+
+            
+          }
+          #pop-impress{
+            background-color: #0a2d66;
+            color: #f5f5f5;
+          }
+          #pop-content{
+            width: 800px;
+            clear: none;
+          
+          }
+          #pop-impress i{
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 145px;
+          }
+          #pop-impress span{
+           position: relative;
+           display: block;
+           margin: auto;
+           width: 100%;
+           font-size: 30px;position:relative;top:-130px;
+          
+           text-align: center;
+          }
+          .content{
+            width: 50%;
+            float: left;
+            position: relative;
+            height: 100%;
+            
+            word-wrap: break-word;
+            
+          }
+          .left{
+            padding: 10px;
+            padding-top: 40px;
+           border-right: 1pt solid #dedede;
+          }
+       
+          #content-head{
+            width: 100%;
+            height: 100px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            background-color: #05142d;
+            justify-content: center;
+          }
+          #content-head span{
+            font-family: 'Pacifico', cursive;
+            display: block;
+            margin: auto;
+            text-align: center;
+            position: relative;
+            top: 50%;
+            transform: translate(0,-50%);
+            color: #f5f5f5;
+            font-size: 30px;
+          }
+      #content-form{
+        width: 90%;
+        position: relative;
+        margin: auto;
+        clear: both;
+        height: calc(100% - 100px);
+       
+      }
+      #content-form ul{
+        width: 100%;
+        position: relative;
+        list-style-type: none;
+        clear: both;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 15px;
+      
+        padding-left: 0;
+
+      }
+      #content-form ul li{
+        
+        margin-bottom: 10px;
+      }
+      #content-form ul li i{
+        float: left;
+        line-height: 40px;
+        font-size: 20px;
+        width: 30px;
+        clear: left;
+        margin-right: 10px;
+      }
+      #content-form ul li input[type="text"], #content-form ul li textarea{
+        width: calc(100% - 55px);
+      }
+      #content-submit{
+        background-color: #5342f4;
+        background-image: linear-gradient(#1f5fc6, #25467c, #05142d);
+        color: #f5f5f5;
+        outline: none;
+        border: none;
+        padding: 10px;
+        width: 65%;
+        margin-top: 20px;
+        border-radius: 20px;
+      }
+
+      @media (min-width: 176px) and (max-width: 414px) {
+          #popup{
+            width: 100%;
+            overflow: auto;
+          }
+          #pop-impress{
+            width: 100%;
+            height: 90px;
+          }
+          #pop-impress i{
+            position: relative;
+            float: left;
+            clear: left;
+            font-size: 30px;
+            display: block;
+            width: 30px;
+            
+          }
+          #pop-impress span{
+            float: left;
+            position: relative;
+            top: 0px;
+            font-size: 25px;
+            top: 20px;
+          }
+          #pop-content{
+            width: 100%;
+            position: relative;
+          }
+          .content{
+            width: 100%;
+            position: relative;
+            
+            float: left;
+            clear: both;
+          }
+      }
+      @media(min-width: 800px) and (max-width: 960px){
+        #popup{
+            width: 100%;
+            overflow: auto;
+          }
+          #pop-impress{
+            width: 170px;
+            height: 100%;
+          }
+          #pop-content{
+            width: calc(100% - 170px);
+          }
+      }
+      #work-category-nav{
+        width: 100%;
+        height: 50px;
+        position: relative;
+        display: block;
+        top: -5px;
+      
+        justify-content: center;
+        align-content: center;
+        border-radius: 10px;
+        background-image: linear-gradient(#475368, #243554, #091326);
+        z-index:2;
+      }
+      #work-category-nav ul{
+        display: block;
+        width: 100%;
+        margin: auto;
+       
+        text-align: center;
+        height: 100%;
+  
+
+      }
+      #work-category-nav ul li{
+        display: inline-block;
+        line-height: 50px;
+        color: #f5f5f5;
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+       
+      }
+      #work-category-nav ul li:hover{
+        background-image: linear-gradient(#f44242, #f44242, #f44242);
+        transition:  0.5s all;
+      }
+      #work-category-nav ul li:focus{
+        background-image: linear-gradient(#000, #000, #000);
+        
+      }
+
+      
+
+
+      
+      .row-label{
+        width: 100%;
+        height: 70px;
+        font-size: 40px;
+        margin-top: 50px;
+      }
+      a{
+        color: #091326;
+        text-align: center
+      }
+
+.title {
+  left: 13px;
+  
+  position: relative;
+  float: left;
+padding-left: 20px;
+padding-right: 35px;
+  font-size: 40px;
+  position: relative;
+  color: #FFF;
+  line-height: 70px;
+
+  background: #0d2142;
+  z-index: 1;
+}
+.title:after {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #0d2142;
+  transform-origin: bottom right;
+  -ms-transform: skew(-30deg, 0deg);
+  -webkit-transform: skew(-30deg, 0deg);
+  transform: skew(-30deg, 0deg);
+}
+.mobile-nav{
+width: 100%;
+display: none;
+height: 100%;
+line-height: 50px;
+  padding-left: 20px;
+  font-size: 30px;
+  color: #f5f5f5;
+}
+.mobile-nav i{
+float: right;
+line-height: 50px;
+position: relative;
+width: 110px;
+text-align: center;
+cursor: pointer;
+}
+
+@media (max-width: 414px){
+.row-label{
+  display: none;
+}
+.mobile-nav{
+  display: block;
+  
+}
+#work-category-nav{
+  margin-top: 50px;
+}
+#work-category-nav ul{
+        display: none;
+        width: 150px;
+        margin: auto;
+        float: right;
+        clear: right;
+        text-align: center;
+        height: auto;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        top: 50px;
+       
+
+      }
+      #work-category-nav ul li{
+        display: block;
+        line-height: 50px;
+        color: #f5f5f5;
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+        background-color: #091326;
+        
+       
+      }
+      #work-category-nav{
+        border-radius: 0;
+      }
+     
+    }
+    #loadingscreen{
+        display: none;
+        position: relative;
+        height: 350px;
+        overflow: hidden;
+      }
+    #loadingscreen img{
+      display: block;
+      margin: auto;
+      margin-top: 100px;
+      position: relative;
+    }
+    .hover{
+      height: 0px;
+      width: 100%;
+      position: absolute;
+      
+      top: 0px;
+      
+      left: 0px;
+      }
+      .hover span{
+          display: block;
+          position: relative;
+          text-align: center;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          color: #fff;
+          display: none;
+          
+      }
+      .trans-hover{
+          background-color: #000;
+          width: 100%;
+          height: 100%;
+          opacity: 0.4;
+          top: 0px;
+          left: 0px;
+          position: absolute;;
+      }
+      
+</style>

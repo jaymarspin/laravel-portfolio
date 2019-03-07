@@ -1,0 +1,55 @@
+.stacks{
+    
+    padding: 7px;
+    float: left;
+    position: relative;
+    margin-right: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: #f5f5f5;
+    font-size: 13px;
+
+  }
+  .css{
+    background-color: #EE7600;
+  }
+  .html{
+    background-color: #00688B;
+  }
+  .javascript{
+    background-color: #EEEE00;
+    color: #333;
+  }
+  .php{
+    background-color: #C1CDCD;
+    color: #333;
+  }
+  .java{
+    background-color: #CD3333;
+  }
+  .mysql{
+    background-color: #D2691E;
+  }
+  .cassandra{
+    background-color: #009ACD;
+  }
+  .javafx{
+    background-color: #B22222;
+  }
+  .node.js{
+    background-color: #333333;
+  }
+  .jquery{
+    background-color: #CD5555;
+
+  }
+  .android{
+    background-color: #9ACD32;
+  }
+  .angular{
+    background-color: #000080;
+  }
+  .photoshop{
+    background-color: #27408B;
+  }
